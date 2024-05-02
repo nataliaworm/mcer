@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      sizes="16x16"
+      type="image/png"
+      href="https://genfavicon.com/tmp/icon_39f1ec23b3751e53504fcfb882e68b3e.ico"
+    />
+    <title>Maria Cecília e Rodolfo</title>
+  </head>
+  <body>
+    <header>
+      <img class="img-header" src="img/mcer.jpg" alt="logo" />
+      <div class="btn-header">
+        <a href="#" class="home">HOME</a>
+        <a href="#" onclick="scrollToSectionBio()">BIOGRAFIA</a>
+        <a href="#" onclick="scrollToSectionAgenda()">AGENDA</a>
+        <a href="#" onclick="scrollToSectionPhoto()">FOTOS</a>
+        <a href="#" onclick="scrollToSectionVideo()">VÍDEOS</a>
+        <a href="#" onclick="scrollToSectionDiscography()">DISCOGRAFIA</a>
+        <a href="#" onclick="scrollToSectionContact()">CONTATOS</a>
+      </div>
+
+      <!-- <div class="btn-header"></div> -->
+    </header>
+    <div class="content">
+      <img class="img-home" src="img/img_home.jpeg" alt="Home" />
+      <div class="bio" id="secaoDadosBio">
+        <h2>BIOGRAFIA</h2>
+        <p>
+          Maria Cecília e Rodolfo é uma dupla de música sertaneja do Brasil,
+          formada pelo casal Maria Cecília (Campo Grande, 7 de agosto de 1985) e
+          Rodolfo Trelha (Nioaque, 1º de outubro de 1984).
+        </p>
+        <p>
+          Começaram a cantar nos corredores da faculdade de zootecnia e
+          decidiram que poderia ser levado a sério, deixando pendente o último
+          semestre da faculdade. Daí começaram a tocar em feiras realizadas pela
+          universidade e em bares da cidade.
+        </p>
+        <p>
+          Apadrinhados de Jorge e Mateus, gravaram seu primeiro CD promocional
+          Você de Volta em 2008. Com quatorze faixas e muita repercussão, o CD
+          lançou a dupla ao estrelato e mostrou ao Brasil uma nova face da
+          música sertaneja. Desde então, a dupla já marcaram presença em todas
+          as regiões brasileiras. No ano seguinte (2009), foi lançado seu
+          segundo CD e primeiro DVD, pela Som Livre Ao Vivo em Goiânia. Também
+          em 2009 a musica Você de Volta fez parte da trilha sonora da novela
+          global Paraíso. Já em 2010, a dupla gravou um novo CD/DVD, também pela
+          Som Livre Ao Vivo em São Paulo, quando fizeram uma parceria com o
+          grupo Exaltasamba a música "O Troco".
+        </p>
+        <p>
+          Após um ano sem gravar, em 16 de setembro de 2012, o casal gravou o
+          CD/DVD "Com Você",no Parque das Nações Indígenas em Campo Grande,
+          novamente pela Som Livre, havendo momentos em que Maria Cecília entrou
+          no palco se emocionando e chorando na abertura do DVD "Com Você"
+          quando o show contou com as participações especiais de Munhoz e
+          Mariano com a música "Voa Voa", Zezé Di Camargo e Luciano com a
+          regravação da música "Imprevisível", Humberto e Ronaldo cantando
+          "Quando Eu Parar De Ligar" e Jorge e Mateus com a música "Só De
+          Pensar".
+        </p>
+        <p>
+          Em 9 de junho de 2016, gravaram em São Paulo numa apresentação
+          exclusiva para fãs e amigos o DVD intitulado "Maria Cecília e Rodolfo
+          Em Fases", com as participações especiais de Michel Teló na faixa
+          "Apenas me ama", a youtuber Gabi Luthai na canção "Doida" e Fred Liel
+          em "É você". A primeira música de trabalho de "Em fases" foi a música
+          "Depois da Briga", que alcançou quatorze milhões de visualizações no
+          YouTube em dois meses após seu lançamento.
+        </p>
+        <p>
+          Depois de gravarem um EP em 2018 com o nome "À Vontade", registraram
+          em fevereiro de 2019 o quinto DVD da carreira intitulado "De Portas
+          Abertas", filmado na casa onde o casal mora, no interior de São Paulo.
+          O repertório conta com canções inéditas e encontros especiais como
+          Felipe Araújo, Henrique e Diego, Gustavo Mioto, Marcos e Belutti, Fred
+          Liel, Thaeme e Thiago e Rayane e Rafaela.
+        </p>
+        <p>
+          Entre números e marcas que impressionam, contabilizam 15 anos de
+          carreira, mais de 10 milhões de cópias vendidas, discos de platina,
+          discos de ouro e dezenas de músicas que se transformaram em hit.
+        </p>
+      </div>
+      <hr />
+      <div class="agenda" id="secaoDadosAgenda">
+        <h2>AGENDA</h2>
+        <i class="fa-solid fa-arrow-left"></i>
+        <h3 class="janeiro">Jan/24</h3>
+        <i class="fa-solid fa-arrow-right"></i>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Goiânia/GO</p>
+                <p>09/01</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Cascavel/PR</p>
+                <p>12/01</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Rio do Sul/SC</p>
+                <p>13/01</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Papagaios/MG</p>
+                <p>19/01</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Carazinho/RS</p>
+                <p>20/01</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Machadinho D'Oeste/RO</p>
+                <p>26/01</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Rolim de Moura/RO</p>
+                <p>27/01</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>São Paulo/SP</p>
+                <p>29/01</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h3 class="fevereiro">Fev/24</h3>
+        <p class="fev">Sem eventos</p>
+        <hr />
+        <h3 class="marco">Mar/24</h3>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Salesópolis/SP</p>
+                <p>02/03</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Cesário Lange/SP</p>
+                <p>08/03</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Deodápolis/MS</p>
+                <p>16/03</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Goiânia/GO</p>
+                <p>22/03</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Monte Mor/SP</p>
+                <p>23/03</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Vista alegre do Alto/SP</p>
+                <p>24/03</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Piedade dos Gerais/MG</p>
+                <p>30/03</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h3 class="abril">Abr/24</h3>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Cruzália/SP</p>
+                <p>05/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Ibiraci/MG</p>
+                <p>06/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Araçoiaba da Serra/SP</p>
+                <p>07/04</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Perdigão/MG</p>
+                <p>11/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Bauru/SP</p>
+                <p>13/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Dois Córregos/SP</p>
+                <p>13/04</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Natal/RN</p>
+                <p>17/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Itauçu/GO</p>
+                <p>19/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Desterro de Entre Rios/MG</p>
+                <p>20/04</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Brasilândia/MS</p>
+                <p>27/04</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p>Forquilhinha/SC</p>
+                <p>28/04</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h3 class="maio">Mai/24</h3>
+        <hr />
+        <h3 class="junho">Jun/24</h3>
+        <hr />
+        <h3 class="julho">Jul/24</h3>
+        <hr />
+        <h3 class="agosto">Ago/24</h3>
+        <hr />
+        <h3 class="setembro">Set/24</h3>
+        <hr />
+        <h3 class="outubro">Out/24</h3>
+        <hr />
+        <h3 class="novembro">Nov/24</h3>
+        <hr />
+        <h3 class="dezembro">Dez/24</h3>
+        <hr />
+      </div>
+      <div class="photo" id="secaoDadosPhoto">
+        <h2>FOTOS</h2>
+
+        <div class="photo-001">
+          <img src="img/001.jpg" alt="" />
+        </div>
+        <div class="photo-002">
+          <img src="img/002.jpg" alt="" />
+        </div>
+
+        <div class="photo-003">
+          <img src="img/003.jpg" alt="" />
+        </div>
+        <div class="photo-004">
+          <img src="img/004.jpg" alt="" />
+        </div>
+        <div class="photo-005">
+          <img src="img/005.jpg" alt="" />
+        </div>
+        <div class="photo-006">
+          <img src="img/006.jpg" alt="" />
+        </div>
+        <div class="photo-007">
+          <img src="img/007.jpg" alt="" />
+        </div>
+        <div class="photo-008">
+          <img src="img/008.jpg" alt="" />
+        </div>
+        <div class="photo-009">
+          <img src="img/009.jpg" alt="" />
+        </div>
+        <div class="photo-010">
+          <img src="img/010.jpg" alt="" />
+        </div>
+        <div class="photo-011">
+          <img src="img/011.jpg" alt="" />
+        </div>
+        <div class="photo-013">
+          <img src="img/013.jpg" alt="" />
+        </div>
+        <div class="photo-014">
+          <img src="img/014.jpg" alt="" />
+        </div>
+        <div class="photo-015">
+          <img src="img/015.jpg" alt="" />
+        </div>
+        <br />
+      </div>
+      <hr />
+      <div class="video" id="secaoDadosVideo">
+        <h2>VÍDEOS</h2>
+        <p>........................</p>
+        <br />
+      </div>
+      <hr />
+      <div class="discography" id="secaoDadosDiscography">
+        <h2>DISCOGRAFIA</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/AoVivo_Goiania.jpg" alt="Ao vivo em Goiânia" />
+              <div class="card-body">
+                <h4 class="card-title">Ao Vivo em Goiânia</h4>
+                <p class="card-text">2009</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/AoVivo_SaoPaulo.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Ao Vivo em São Paulo</h4>
+                <p class="card-text">2010</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/ComVoce.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Com Você (Ao Vivo)</h4>
+                <p class="card-text">2012</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/EspalheAmor.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Espalhe Amor</h4>
+                <p class="card-text">2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/EmFases.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Em Fases (Ao Vivo)</h4>
+                <p class="card-text">2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/10_anos.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">10 Anos de Sucessos (Ao Vivo)</h4>
+                <p class="card-text">2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/AVontade.png" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">À Vontade (Acústico)</h4>
+                <p class="card-text">2018</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/DePortasAbertas.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">De Portas Abertas (Ao Vivo)</h4>
+                <p class="card-text">2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/ComoComecou.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Como Tudo Começou</h4>
+                <p class="card-text">2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/NaHoraH.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Na Hora H</h4>
+                <p class="card-text">2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/Duos.png" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">DUOS</h4>
+                <p class="card-text">2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="img/15_anos.jpg" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">15 Anos (Ao Vivo)</h4>
+                <p class="card-text">2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="contact" id="secaoDadosContact">
+        <h2>CONTATO</h2>
+        <p>Shows: (16) 99103-4294</p>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/mariaceciliaerodolfo"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/mariaceciliaerodolfo/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UCW9DlnZWBQojUm0MDviLDLw"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+      <br /><br />
+      <footer>
+        Feito com &hearts; por <strong>Natália Delavy Worm</strong>
+        <br />
+        Homenagem de fã para a dupla Maria Cecília e Rodolfo
+        <br />
+        2024
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
